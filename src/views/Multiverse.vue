@@ -1,0 +1,637 @@
+<script>
+console.log('Multiverse')
+</script>
+
+<template>
+  <div class="d-flex flex-column">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container" style="max-width: 1200px">
+        <div class="d-flex align-items-center">
+          <a class="navbar-brand" href="./index.html">
+            <img
+              src="../../public/img/mapod_new_render_scontornato.png"
+              alt=""
+              width="50"
+              height="50"
+              class="d-inline-block align-text-top"
+            />
+          </a>
+          <a
+            class="navbar-brand"
+            style="font-weight: 700; color: #4f41d1; padding-bottom: 10px"
+            href="./index.html"
+            >MAPOD4D</a
+          >
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-lg-flex justify-content-lg-end" id="navbarNav">
+          <ul class="navbar-nav gap-lg-3" style="font-size: 1.2rem; font-weight: bold">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./project.html">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./outintheworld.html">Out in the World</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./showcase.html">Showcase</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-primary" href="./multiverse.html">Multiverse</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./governance.html">Governance</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- main -->
+    <main class="conteiner-fluid d-flex flex-column justify-content-center align-items-center">
+      <!-- sezione 1 -->
+      <section class="container-fluid" style="background-color: var(--blue-mapod4d)">
+        <article class="container text-light my-5" style="max-width: 1200px">
+          <div class="container">
+            <div class="row d-flex flex-column justify-content-center align-items-center">
+              <h3 class="h3 mb-3 text-center"><strong>Guidelines.</strong></h3>
+              <p class="lead text-center">
+                Guidelines for those who want to build a "Metaverse MAPOD4D".
+              </p>
+              <!-- buttons -->
+              <div class="mt-2 d-flex flex-wrap gap-3 justify-content-center">
+                <a
+                  class="btn btn-light btn-lg"
+                  href="https://github.com/mapod4d/docs/blob/master/mapod4d_guidelines_lineeguida.pdf?raw=true"
+                  target="_blank"
+                >
+                  Download guidelines
+                </a>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <!-- sezione 2 -->
+      <section class="container-fluid">
+        <article class="container text-dark my-5" style="max-width: 1200px">
+          <div class="container">
+            <div class="row mb-3">
+              <p class="h3 text-start"><strong>MAPOD4D core version 1.</strong></p>
+              <p class="lead">
+                Version 1 is only available for desktop with Operation System GNU/Linux and
+                Microsoft Windows.
+              </p>
+              <!-- buttons -->
+              <div class="mb-3 d-flex flex-wrap gap-3">
+                <a
+                  type="button"
+                  class="btn text-light btn-lg"
+                  style="background-color: var(--blue-mapod4d)"
+                  href="https://github.com/mapod4d/mapod4d_c2/blob/3a3f5f93d47212861501fd71fae6a2e4c23ce65a/license"
+                  target=""
+                >
+                  License*
+                </a>
+                <button
+                  type="button"
+                  class="btn text-light btn-lg dropdown-toggle"
+                  style="background-color: var(--blue-mapod4d)"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Manual
+                </button>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://github.com/mapod4d/docs/blob/master/en/c1/en_user_manual.pdf?raw=true"
+                      target="_blank"
+                      >English version</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://github.com/mapod4d/docs/blob/master/it/c1/it_user_manual.pdf?raw=true"
+                      target="_blank"
+                      >Italian version</a
+                    >
+                  </li>
+                </ul>
+                <button
+                  type="button"
+                  class="btn text-light btn-lg dropdown-toggle"
+                  style="background-color: var(--blue-mapod4d)"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Technical document
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end">
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://github.com/mapod4d/docs/blob/master/it/c1/it_documento_tecnico_mapod4d.pdf?raw=true"
+                      target="_blank"
+                      >Italian version</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <p>*The License is valid for MAPOD4D core 1 and core 2</p>
+            </div>
+            <div class="row mb-3">
+              <p class="h3 mb-2 text-start"><strong>Multiverse</strong></p>
+              <table class="table table-bordered w-100">
+                <thead class="h5">
+                  <tr>
+                    <th>Metaverse</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody class="h6">
+                  <tr>
+                    <th style="color: #3226a3">Lovere - LOBGMAR15</th>
+                    <th style="color: dimgrey">Lovere via Martinoli (BG), scheletro tomba 14</th>
+                  </tr>
+                  <tr>
+                    <th style="color: #3226a3">Castelseprio - CSSG</th>
+                    <th style="color: dimgrey">
+                      Sepolture nell'area F tra l'abside minore (quello a sud) e il campanile della
+                      Basilica di San Giovanni nel Parco Archeologico di Castelseprio (VA)
+                    </th>
+                  </tr>
+                  <tr>
+                    <th style="color: #3226a3">Osteoisto</th>
+                    <th style="color: dimgrey">
+                      L'invisibile in museo 4D - un metaverso per la divulgazione e la ricerca
+                      istologica in collaborazione con il
+                      <a href="https://www.liceogallarate.edu.it" target="_blank"
+                        >Liceo Dei Tigli</a
+                      >
+                      di Gallarate e il
+                      <a href="https://www.liceoferrarisvarese.edu.it" target="_blank"
+                        >Liceo Galileo Ferraris</a
+                      >
+                      di Varese e
+                      <a href="https://www.argonavis.it" target="_blank">Argonavis S.r.l.</a>
+                      di Varese - Finanziato dal Bando Project Work III edizione della Camera di
+                      Commercio di Varese
+                    </th>
+                  </tr>
+                  <tr>
+                    <th style="color: #3226a3">Osteoatla</th>
+                    <th style="color: dimgrey">Atlante osteologico</th>
+                  </tr>
+                  <tr>
+                    <th style="color: #3226a3">Monastaro di Astino</th>
+                    <th style="color: dimgrey">Esterni e interni del Monastero di Astino (BG)</th>
+                  </tr>
+                  <tr>
+                    <th style="color: #3226a3">Castelseprio - Casa Piccoli</th>
+                    <th style="color: dimgrey">
+                      Scavo archeologico dell'area di Casa Piccoli nel Parco Archeologico di
+                      Castelseprio (VA)
+                    </th>
+                  </tr>
+                  <tr>
+                    <th style="color: #3226a3">GAM</th>
+                    <th style="color: dimgrey">
+                      Espansione digitale della collezione archeologica del GAM - Golasecca
+                      Archeologia Multimediale (VA)
+                    </th>
+                  </tr>
+                  <tr>
+                    <th style="color: #3226a3">Treviglio</th>
+                    <th style="color: dimgrey">Scavo Archeologico si Treviglio (BG)</th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="row mb-3">
+              <p class="h3 mb-2 text-start"><strong>Download Metaverse</strong></p>
+              <table class="table table-bordered w-100 mb-1">
+                <thead class="h5">
+                  <tr>
+                    <th>OS*</th>
+                    <th>Metaverse</th>
+                    <th>File Type</th>
+                  </tr>
+                </thead>
+                <tbody class="h6">
+                  <tr>
+                    <th>
+                      <img
+                        src="https://raw.githubusercontent.com/EgoistDeveloper/operating-system-logos/master/src/24x24/WIN.png"
+                        alt="Windows Logo"
+                      />
+                    </th>
+                    <th>
+                      <img
+                        src="../../public/img/null.png"
+                        alt="lobgmar15"
+                        style="width: 20px; height: 20px"
+                      />&nbsp;<a
+                        href="https://filedn.eu/lsD1YJOdPbyhboA6GjGwlep/mapod4d/c1/lobgmar15/win64_c1_lobgmar15_1_0_0_3_a_7z.exe"
+                      >
+                        Lovere - LOBGMAR15</a
+                      >
+                    </th>
+                    <th>.exe 7z self-extracting archive</th>
+                  </tr>
+                  <tr>
+                    <th>
+                      <img
+                        src="https://raw.githubusercontent.com/EgoistDeveloper/operating-system-logos/master/src/24x24/WIN.png"
+                        alt="Windows Logo"
+                      />
+                    </th>
+                    <th>
+                      <img
+                        src="../../public/img/null.png"
+                        alt="cssg"
+                        style="width: 20px; height: 20px"
+                      />&nbsp;<a
+                        href="https://filedn.eu/lsD1YJOdPbyhboA6GjGwlep/mapod4d/c1/cssg/win64_c1_cssg_0_0_0_3_a_7z.exe"
+                      >
+                        Castelseprio - CSSG</a
+                      >
+                    </th>
+                    <th>.exe 7z self-extracting archive</th>
+                  </tr>
+                  <tr>
+                    <th>
+                      <img
+                        src="https://raw.githubusercontent.com/EgoistDeveloper/operating-system-logos/master/src/24x24/WIN.png"
+                        alt="Windows Logo"
+                      />
+                    </th>
+                    <th>
+                      <img
+                        src="../../public/img/null.png"
+                        alt="Osteoisto"
+                        style="width: 20px; height: 20px"
+                      />&nbsp;<a
+                        href="https://filedn.eu/lsD1YJOdPbyhboA6GjGwlep/mapod4d/c1/osteoisto/win64_c1_osteoisto_0_0_0_1_a_7z.exe"
+                      >
+                        Osteoisto</a
+                      >
+                    </th>
+                    <th>.exe 7z self-extracting archive</th>
+                  </tr>
+                  <tr>
+                    <th>
+                      <img
+                        src="https://raw.githubusercontent.com/EgoistDeveloper/operating-system-logos/master/src/24x24/WIN.png"
+                        alt="Windows Logo"
+                      />
+                    </th>
+                    <th>
+                      <img
+                        src="../../public/img/null.png"
+                        alt="Osteoatla"
+                        style="width: 20px; height: 20px"
+                      />&nbsp;<a
+                        href="https://filedn.eu/lsD1YJOdPbyhboA6GjGwlep/mapod4d/c1/osteoatla/wind64_c1_osteoatla_0_0_0_1_a_7z.exe"
+                      >
+                        Osteoatla</a
+                      >
+                    </th>
+                    <th>.exe 7z self-extracting archive</th>
+                  </tr>
+                  <tr>
+                    <th>
+                      <img
+                        src="https://raw.githubusercontent.com/EgoistDeveloper/operating-system-logos/master/src/24x24/WIN.png"
+                        alt="Windows Logo"
+                      />
+                    </th>
+                    <th>
+                      <img
+                        src="../../public/img/null.png"
+                        alt="Logo MAPOD4D Monastero di Astino"
+                        style="width: 20px; height: 20px"
+                      />&nbsp;<a
+                        href="https://filedn.eu/lsD1YJOdPbyhboA6GjGwlep/mapod4d/c1/bgastn/win64_c1_bgastn_0_0_0_6_a_7z.exe"
+                      >
+                        Monastero di Astino</a
+                      >
+                    </th>
+                    <th>.exe 7z self-extracting archive</th>
+                  </tr>
+                  <tr>
+                    <th>
+                      <img
+                        src="https://raw.githubusercontent.com/EgoistDeveloper/operating-system-logos/master/src/24x24/WIN.png"
+                        alt="Windows Logo"
+                      />
+                    </th>
+                    <th>
+                      <img
+                        src="../../public/img/null.png"
+                        alt="Logo MAPOD4D Castelseprio"
+                        style="width: 20px; height: 20px"
+                      />&nbsp;<a
+                        href="https://filedn.eu/lsD1YJOdPbyhboA6GjGwlep/mapod4d/c1/cscp2022/win64_c1_cscp2022_1_0_0_7_rc3_7z.exe"
+                      >
+                        Castelseprio - Casa Piccoli</a
+                      >
+                    </th>
+                    <th>.exe 7z self-extracting archive</th>
+                  </tr>
+                  <tr>
+                    <th>
+                      <img
+                        src="https://raw.githubusercontent.com/EgoistDeveloper/operating-system-logos/master/src/24x24/WIN.png"
+                        alt="Windows Logo"
+                      />
+                    </th>
+                    <th>
+                      <img
+                        src="../../public/img/loghi_mapod/logo_gam.png"
+                        alt="Logo MAPOD4D GAM"
+                        style="width: 20px; height: 20px"
+                      />&nbsp;<a
+                        href="https://filedn.eu/lsD1YJOdPbyhboA6GjGwlep/mapod4d/c1/gam/mswin64_gam_0_0_0_6_b_7z.exe"
+                      >
+                        GAM</a
+                      >
+                    </th>
+                    <th>.exe 7z self-extracting archive</th>
+                  </tr>
+                  <tr>
+                    <th>
+                      <img
+                        src="https://raw.githubusercontent.com/EgoistDeveloper/operating-system-logos/master/src/24x24/WIN.png"
+                        alt="Windows Logo"
+                      />
+                    </th>
+                    <th>
+                      <img
+                        src="../../public/img/loghi_mapod/logo_treviglio_av113iv01t23.png"
+                        alt="Logo MAPOD4D Treviglio"
+                        style="width: 20px; height: 20px"
+                      />&nbsp;<a
+                        href="https://filedn.eu/lsD1YJOdPbyhboA6GjGwlep/mapod4d/c1/treviglio_av13iv01t23/win64_mapod_treviglioav13iv01-1-0-0-1-b.zip"
+                      >
+                        Treviglio</a
+                      >
+                    </th>
+                    <th>.zip archive</th>
+                  </tr>
+                  <tr>
+                    <th>
+                      <img
+                        src="https://raw.githubusercontent.com/EgoistDeveloper/operating-system-logos/master/src/24x24/MAC.png"
+                        alt=""
+                      />
+                    </th>
+                    <th>
+                      <img
+                        src="../../public/img/loghi_mapod/logo_treviglio_av113iv01t23.png"
+                        alt="Logo MAPOD4D Treviglio"
+                        style="width: 20px; height: 20px"
+                      />&nbsp;<a
+                        href="https://filedn.eu/lsD1YJOdPbyhboA6GjGwlep/mapod4d/c1/treviglio_av13iv01t23/mac_mapod_treviglioav13iv01-1-0-0-1-b.zip"
+                      >
+                        Treviglio</a
+                      >
+                    </th>
+                    <th>.zip archive</th>
+                  </tr>
+                  <tr>
+                    <th>
+                      <img
+                        src="https://raw.githubusercontent.com/EgoistDeveloper/operating-system-logos/master/src/24x24/LIN.png"
+                        alt="Linux Logo"
+                      />
+                    </th>
+                    <th>
+                      <img
+                        src="../../public/img/loghi_mapod/logo_treviglio_av113iv01t23.png"
+                        alt="Logo MAPOD4D Treviglio"
+                        style="width: 20px; height: 20px"
+                      />&nbsp;<a
+                        href="https://filedn.eu/lsD1YJOdPbyhboA6GjGwlep/mapod4d/c1/treviglio_av13iv01t23/linux_mapod_treviglioav13iv01-1-0-0-1-b.x86_64.bz2"
+                      >
+                        Treviglio</a
+                      >
+                    </th>
+                    <th>.bz2 archive</th>
+                  </tr>
+                </tbody>
+              </table>
+              <p class="mb-1">
+                *All logos are from the MIT licensed project
+                <a href="https://github.com/EgoistDeveloper/operating-system-logos" target="_blank"
+                  >Operating System Logos</a
+                >.
+              </p>
+              <p class="lead mb-1">
+                Core source code on
+                <a class="text-dark" href="https://github.com/mapod4d/c1" target="_blank">GitHub</a>
+              </p>
+            </div>
+            <div class="row mb-3"></div>
+
+            <div class="row mt-5">
+              <p class="h3 text-start"><strong>MAPOD4D core version 2</strong></p>
+              <p class="lead">Work in progress. Stay tuned!</p>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start text-white" style="background-color: #45526e">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Cookies -->
+        <section class="p-2 pt-0">
+          <div class="container bg-dark text-center">
+            <p>This website does not use cookies.</p>
+          </div>
+        </section>
+        <!-- Section: Cookies -->
+
+        <!-- Section: Links -->
+        <section class="">
+          <!--Grid row-->
+          <div class="row">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Project Managers</h6>
+              <p><b>Roberto Taglioretti</b><br />Project developing</p>
+              <p><b>Alessandra Mazzucchi</b><br />Anthropology and contents</p>
+              <p><b>Serenella Saccon</b><br />Legals</p>
+            </div>
+            <!-- Grid column -->
+
+            <hr class="w-100 clearfix d-md-none" />
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Supporters</h6>
+              <p>
+                <a
+                  class="text-light"
+                  href="https://www.archeostec.it/"
+                  target="_blank"
+                  rel="noopener"
+                  >ArcheOs Tec</a
+                >
+              </p>
+              <p>
+                <a
+                  class="text-light"
+                  href="https://www.progettosl.eu/"
+                  target="_blank"
+                  rel="noopener"
+                  >Progettosl</a
+                >
+              </p>
+              <p>
+                <a
+                  class="text-light"
+                  href="https://www.labdig3a.it/academy.html"
+                  target="_blank"
+                  rel="noopener"
+                  >Associazione LabDig 3A Academy</a
+                >
+              </p>
+              <p>
+                <a class="text-light" href="https://www.osteoarc.it/" target="_blank" rel="noopener"
+                  >Associazione Osteoarc - APS</a
+                >
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <hr class="w-100 clearfix d-md-none" />
+
+            <!-- Grid column -->
+            <hr class="w-100 clearfix d-md-none" />
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Contacts</h6>
+              <p>
+                <i class="fas fa-home mr-3"></i> Gornate Olona Via Matteotti 7 - C/O ArcheOs Tec
+              </p>
+              <p><i class="fas fa-envelope mr-3"></i> r.taglioretti@archeostec.it</p>
+              <p><i class="fas fa-phone mr-3"></i> + 39 331 577 6186</p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!--Grid row-->
+        </section>
+        <!-- Section: Links -->
+
+        <hr class="my-3" />
+
+        <!-- Section: Copyright -->
+        <section class="p-3 pt-0">
+          <div class="row d-flex align-items-center">
+            <!-- Grid column -->
+            <div class="col-md-7 col-lg-8 text-center text-md-start">
+              <!-- Copyright -->
+              <div class="p-3">
+                <p>
+                  Authors: Roberto Taglioretti and
+                  <a
+                    class="text-light"
+                    href="https://github.com/mapod4d"
+                    target="_blank"
+                    rel="noopener"
+                    >contributors</a
+                  >.<br />
+                  Website developer: Filippo Di Marco
+                  <a
+                    class="text-light"
+                    href="https://www.linkedin.com/in/filippo-di-marco-703649168/"
+                    target="_blank"
+                    rel="noopener"
+                    >LinkedIn</a
+                  >.<br />
+                </p>
+              </div>
+              <!-- Copyright -->
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+              <!-- Discord -->
+              <a
+                class="btn btn-outline-light btn-floating m-1 text-white"
+                role="button"
+                href="https://discord.gg/ns4GGuVG5Y"
+                target="_blank"
+                ><i class="fab fa-discord"></i
+              ></a>
+
+              <!-- Facebook -->
+              <a
+                class="btn btn-outline-light btn-floating m-1 text-white"
+                role="button"
+                href="https://www.facebook.com/mapod4d"
+                target="_blank"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+
+              <!-- Youtube -->
+              <a
+                class="btn btn-outline-light btn-floating m-1 text-white"
+                role="button"
+                href="https://www.youtube.com/@mapod4d"
+                target="_blank"
+                ><i class="fab fa-youtube"></i
+              ></a>
+
+              <!-- Twitch -->
+              <a
+                class="btn btn-outline-light btn-floating m-1 text-white"
+                role="button"
+                href="https://www.twitch.tv/mapod4d"
+                target="_blank"
+                ><i class="fab fa-twitch"></i
+              ></a>
+
+              <!-- GitHub -->
+              <a
+                class="btn btn-outline-light btn-floating m-1 text-white"
+                role="button"
+                href="https://github.com/mapod4d/"
+                target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+            <!-- Grid column -->
+          </div>
+        </section>
+        <!-- Section: Copyright -->
+      </div>
+      <!-- Grid container -->
+    </footer>
+    <!-- Footer -->
+  </div>
+</template>
+
+<style></style>

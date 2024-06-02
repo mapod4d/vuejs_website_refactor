@@ -1,0 +1,618 @@
+<script>
+console.log('Out in the World')
+</script>
+
+<template>
+  <div class="d-flex flex-column">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container" style="max-width: 1200px">
+        <div class="d-flex align-items-center">
+          <a class="navbar-brand" href="./index.html">
+            <img
+              src="../../public/img/mapod_new_render_scontornato.png"
+              alt=""
+              width="50"
+              height="50"
+              class="d-inline-block align-text-top"
+            />
+          </a>
+          <a
+            class="navbar-brand"
+            style="font-weight: 700; color: #4f41d1; padding-bottom: 10px"
+            href="./index.html"
+            >MAPOD4D</a
+          >
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-lg-flex justify-content-lg-end" id="navbarNav">
+          <ul class="navbar-nav gap-lg-3" style="font-size: 1.2rem; font-weight: bold">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./project.html">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-primary" href="./outintheworld.html"
+                >Out in the World</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./showcase.html">Showcase</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./multiverse.html">Multiverse</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./governance.html">Governance</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- main -->
+    <main class="conteiner-fluid d-flex flex-column justify-content-center align-items-center mb-5">
+      <header>
+        <h2 class="fw-light text-center text-lg-start mt-4 mb-0"><b>Out in the world</b></h2>
+        <hr class="mt-2 mb-5" />
+      </header>
+      <!-- sezione 1 -->
+      <article class="container-fluid">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xxl-4 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img
+                  src="../../public/img/out_in_the_world/tagliate/cssg_akylina.png"
+                  class="card-img-top"
+                  alt="placeholder"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Progetto educazione civica presso il Liceo Galileo Ferraris di Varese
+                  </h5>
+                  <h6 class="card-subtitle mb-2 text-muted">21th May 2024</h6>
+                  <p class="card-text">
+                    Presentazione CSSG nel progetto educazione civica della studentessa Akylina
+                    Taglioretti <br /><br />
+                    <a href="https://www.youtube.com/watch?v=RY1A0WJvNgE&t=7s"
+                      >https://www.youtube.com/watch?v=RY1A0WJvNgE&t=7s</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <!-- <img
+                  src="../../public/img/out_in_the_world/tagliate/20240510_lezione_insubria.png"
+                  class="card-img-top"
+                  alt="placeholder"
+                /> -->
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Lezione elettiva presso Università degli Studi dell'Insubria
+                  </h5>
+                  <h6 class="card-subtitle mb-2 text-muted">10th May 2024</h6>
+                  <p class="card-text">
+                    Corso di Antropologia <br />
+                    MAPOD4D: scheletri e archeologia tra tecnologia e divulgazione <br />Con
+                    Alessandra Mazzucchi e Roberto Taglioretti di Associazione LabDig 3A Academy
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img
+                  src="../../public/img/out_in_the_world/tagliate/20231026_convegno_uni_siena.png"
+                  class="card-img-top"
+                  alt="placeholder"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Convegno presso Università degli Studi di Siena</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">26th Oct 2023</h6>
+                  <p class="card-text">
+                    Un (multi)metaverso di scavo archeologico: MAPOD4D a Castelseprio.
+                    <br />Archeologia e nuove tecnologie dalla teoria ai protocolli. <br />Con Marco
+                    Moderato, Roberto Taglioretti, Alessandra Mazzucchi Filippo Di Marco, Antonio
+                    Merola, Vasco La Salvia
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img
+                  src="../../public/img/out_in_the_world/tagliate/universita_studi_milano.png"
+                  class="card-img-top"
+                  alt="placeholder"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Lezione presso Università degli Studi di Milano</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">22th March 2023</h6>
+                  <p class="card-text">
+                    Anthropologia & MAPOD4D: Lezione per il corso del Professor Umberto Tecchati
+                    "Ecologia e Preistorica" presso la l'Università degli Studi di Milano
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img
+                  src="../../public/img/out_in_the_world/tagliate/camera_di_commercio.png"
+                  class="card-img-top"
+                  alt="placeholder"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Presentazione in Camera di Commercio</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">10th March 2023</h6>
+                  <p class="card-text">
+                    Con i ragazzi del PCTO ormai pronti a presentare il Multiverso di Metaversi
+                    MAPOD4D in camera di commercio
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img
+                  src="../../public/img/out_in_the_world/accademiadeipugni.png"
+                  class="card-img-top"
+                  alt="placeholder"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Interview - Accademia dei Pugni</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">8th December 2022</h6>
+                  <p class="card-text">
+                    ARCHEOLOGIA e ANTROPOLOGIA nel METAVERSO: il FUTURO? Si può scavare nel
+                    metaverso? E' davvero il futuro anche per l'archeologia? E come possiamo
+                    costruirlo? Di questo e molto altro parliamo con gli amici di @mapod4d.
+                    Intervista a cura del Ph.D Marco Moderato
+                  </p>
+                  <a href="https://www.youtube.com/watch?v=GCPTSP8aITk" target="_blank"
+                    >https://www.youtube.com/watch?v=GCPTSP8aITk
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img
+                  src="../../public/img/out_in_the_world/lezioni_mapod.png"
+                  class="card-img-top"
+                  alt="placeholder"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Lezioni online</h5>
+                  <h6 class="card-subtitle mb-2 text-muted" th>November 2022</h6>
+                  <p class="card-text">Avvio del progetto lezioni online sul canale di MAPOD4D.</p>
+                  <a href="https://www.youtube.com/@mapod4d" target="_blank"
+                    >https://www.youtube.com/@mapod4d
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img
+                  src="../../public/img/out_in_the_world/planets.jpg"
+                  class="card-img-top"
+                  alt="placeholder"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    PROJECT WORK - L'INVISIBILE IN MUSEO 4D - Un metaverso per la divulgazione e la
+                    ricerca istologica
+                  </h5>
+                  <h6 class="card-subtitle mb-2 text-muted">November 2022</h6>
+                  <p class="card-text">
+                    <a href="https://www.argonavis.it/" target="_blank">Argonavis Srl</a> e
+                    <a href="https://www.osteoarc.it/" target="_blank">Osteoarc APS</a> utilizzano
+                    lo strumento MAPOD4D nel progetto finanziato dalla Camera di Commercio di Varese
+                    PCTO con i ragazzi del Liceo Galileo Ferraris di Varese e del Liceo Leonardo Da
+                    Vinci di Gallarate (Liceo dei Tigli).
+                  </p>
+                  <a
+                    href="https://www.va.camcom.it/archivio39_contributi_0_257.html"
+                    target="_blank"
+                    >https://www.va.camcom.it/archivio39_contributi_0_257.html
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img
+                  src="../../public/img/out_in_the_world/planets.jpg"
+                  class="card-img-top"
+                  alt="placeholder"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    PROJECT WORK - ANATOMIA DA MODELLARE - Creazione di un atlante osteologico
+                    interattivo multimediale
+                  </h5>
+                  <h6 class="card-subtitle mb-2 text-muted">November 2022</h6>
+                  <p class="card-text">
+                    <a href="https://www.archeostec.it/" target="_blank">ArcheOs Tec</a> utilizza lo
+                    strumento MAPOD4D nel progetto finanziato dalla Camera di Commercio di Varese
+                    PCTO con i ragazzi del Liceo GB Grassi di Saronno e dell'istituto Geymonat di
+                    Tradate.
+                  </p>
+                  <a
+                    href="https://www.va.camcom.it/archivio39_contributi_0_257.html"
+                    target="_blank"
+                    >https://www.va.camcom.it/archivio39_contributi_0_257.html
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img
+                  src="../../public/img/out_in_the_world/repubblica.png"
+                  class="card-img-top"
+                  alt="placeholder"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">La Repubblica</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">30th October 2022</h6>
+                  <p class="card-text">
+                    Borsa Mediterranea del Turismo Archeologico: la cerimonia per i premi
+                    "Sebastiano Tusa".
+                  </p>
+                  <a
+                    href="https://www.repubblica.it/cultura/2022/09/29/news/borsa_mediterranea_del_turismo_archeologico_sabato_29_ottobre_la_cerimonia_per_i_premi_sebastiano_tusa-366896446/"
+                    target="_blank"
+                    >https://www.repubblica.it/cultura/2022/09/29/news/borsa_mediterranea_del_turismo_archeologico_sabato_29_ottobre_la_cerimonia_per_i_premi_sebastiano_tusa-366896446/
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img
+                  src="../../public/img/out_in_the_world/sole24.png"
+                  class="card-img-top"
+                  alt="placeholder"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Sole 24 Ore Tecnologia</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">27th October 2022</h6>
+                  <p class="card-text">
+                    Cantieri archeologici aperti per costruire e abitare i metaversi a cura di
+                    Alessia Maccaferri.
+                  </p>
+                  <a
+                    href="https://www.ilsole24ore.com/art/cantieri-archeologici-aperti-costruire-e-abitare-metaversi-AE2jdd9B"
+                    target="_blank"
+                    >https://www.ilsole24ore.com/art/cantieri-archeologici-aperti-costruire-e-abitare-metaversi-AE2jdd9B
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img
+                  src="../../public/img/out_in_the_world/medantinterview.png"
+                  class="card-img-top"
+                  alt="placeholder"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Interview - mediterraneo_antico</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">27th October 2022</h6>
+                  <p class="card-text">
+                    Metaverso applicato alla rappresentazione e all'immagazinamento di dati
+                    scientifici a cura di Marcello Garbagnati
+                  </p>
+                  <a
+                    href="https://www.instagram.com/reel/CkNu1MwjvGu/?igshid=MDJmNzVkMjY="
+                    target="_blank"
+                    >https://www.instagram.com/reel/CkNu1MwjvGu/?igshid=MDJmNzVkMjY=</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img
+                  src="../../public/img/out_in_the_world/pestum.png"
+                  class="card-img-top"
+                  alt="placeholder"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Archeovirtual - XXIV Borsa mediterranea del turismo archeologico
+                  </h5>
+                  <h6 class="card-subtitle mb-2 text-muted">October 2022</h6>
+                  <p class="card-text">
+                    MAPOD4D is both a platform and a framework for the development of the
+                    "multiverse of metaverses" in anthropology, history, art and culture. It is the
+                    element connecting various projects already existant, belonging to five
+                    categories: image digital elaboration, data repository, digital lab, new sensors
+                    for data acquisition, new technological methodologies.
+                  </p>
+                  <a
+                    href="https://www.youtube.com/playlist?list=PLslh5RaO317OdpHGuHDgrRJpCTEdArejy"
+                    target="_blank"
+                    >https://www.youtube.com/playlist?list=PLslh5RaO317OdpHGuHDgrRJpCTEdArejy</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img
+                  src="../../public/img/out_in_the_world/archeofoss.png"
+                  class="card-img-top"
+                  alt="placeholder"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">ARCHEOFOSS 2022</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">September 2022</h6>
+                  <p class="card-text">
+                    MAPOD4D: A Multi/Metaverse for Archaeology, Anthropology and Cultural Heritage
+                  </p>
+                  <a href="./abstract/2022/moderatoetal.html" target="_blank"
+                    >https://www.mapod4d.it/abstract/2022/moderatoetal.html</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img
+                  src="../../public/img/out_in_the_world/cscp2022.jpg"
+                  class="card-img-top"
+                  alt="cscp2022"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">CSCP 2022</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">June 2022</h6>
+                  <p class="card-text">
+                    In collaborazione con il Professor Vasco La Salvia e il Dottor Marco Moderato
+                    dell'Università Statale si chieti il progetto di digitalizzazione mapod4d dello
+                    scavo di Casa Piccoli a Castel Seprio (VA).
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img
+                  src="../../public/img/out_in_the_world/cscf2022.jpg"
+                  class="card-img-top"
+                  alt="cscp2022"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">CSCF 2022</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">June 2022</h6>
+                  <p class="card-text">
+                    In collaborazione con la Professoressa Caterina Giostra dell'Università
+                    Cattolica del Sacro Cuore di Milano il progetto di digitalizzazione mapod4d
+                    dello scavo della Casa-Forte di Castel Seprio (VA).
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img
+                  src="../../public/img/out_in_the_world/Sibrium_35.jpg"
+                  class="card-img-top"
+                  alt="cscp2022"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Article on Sibrium N.35, Centro di Studi Preistorici e Archeologici di Varese,
+                    Varese
+                  </h5>
+                  <h6 class="card-subtitle mb-2 text-muted">20th November 2021</h6>
+                  <p class="card-text">
+                    MAPOD4D: primo esempio di musealizzazione digitale di sepolture utilizzando un
+                    multiverso di metaversi.
+                  </p>
+                  <a
+                    href="https://www.youtube.com/watch?v=tgG_4yBruUI"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >https://www.youtube.com/watch?v=tgG_4yBruUI</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start text-white" style="background-color: #45526e">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Cookies -->
+        <section class="p-2 pt-0">
+          <div class="container bg-dark text-center">
+            <p>This website does not use cookies.</p>
+          </div>
+        </section>
+        <!-- Section: Cookies -->
+
+        <!-- Section: Links -->
+        <section class="">
+          <!--Grid row-->
+          <div class="row">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Project Managers</h6>
+              <p><b>Roberto Taglioretti</b><br />Project developing</p>
+              <p><b>Alessandra Mazzucchi</b><br />Anthropology and contents</p>
+              <p><b>Serenella Saccon</b><br />Legals</p>
+            </div>
+            <!-- Grid column -->
+
+            <hr class="w-100 clearfix d-md-none" />
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Supporters</h6>
+              <p>
+                <a
+                  class="text-light"
+                  href="https://www.archeostec.it/"
+                  target="_blank"
+                  rel="noopener"
+                  >ArcheOs Tec</a
+                >
+              </p>
+              <p>
+                <a
+                  class="text-light"
+                  href="https://www.progettosl.eu/"
+                  target="_blank"
+                  rel="noopener"
+                  >Progettosl</a
+                >
+              </p>
+              <p>
+                <a
+                  class="text-light"
+                  href="https://www.labdig3a.it/academy.html"
+                  target="_blank"
+                  rel="noopener"
+                  >Associazione LabDig 3A Academy</a
+                >
+              </p>
+              <p>
+                <a class="text-light" href="https://www.osteoarc.it/" target="_blank" rel="noopener"
+                  >Associazione Osteoarc - APS</a
+                >
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <hr class="w-100 clearfix d-md-none" />
+
+            <!-- Grid column -->
+            <hr class="w-100 clearfix d-md-none" />
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Contacts</h6>
+              <p>
+                <i class="fas fa-home mr-3"></i> Gornate Olona Via Matteotti 7 - C/O ArcheOs Tec
+              </p>
+              <p><i class="fas fa-envelope mr-3"></i> r.taglioretti@archeostec.it</p>
+              <p><i class="fas fa-phone mr-3"></i> + 39 331 577 6186</p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!--Grid row-->
+        </section>
+        <!-- Section: Links -->
+
+        <hr class="my-3" />
+
+        <!-- Section: Copyright -->
+        <section class="p-3 pt-0">
+          <div class="row d-flex align-items-center">
+            <!-- Grid column -->
+            <div class="col-md-7 col-lg-8 text-center text-md-start">
+              <!-- Copyright -->
+              <div class="p-3">
+                <p>
+                  Authors: Roberto Taglioretti and
+                  <a
+                    class="text-light"
+                    href="https://github.com/mapod4d"
+                    target="_blank"
+                    rel="noopener"
+                    >contributors</a
+                  >.<br />
+                  Website developer: Filippo Di Marco
+                  <a
+                    class="text-light"
+                    href="https://www.linkedin.com/in/filippo-di-marco-703649168/"
+                    target="_blank"
+                    rel="noopener"
+                    >LinkedIn</a
+                  >.<br />
+                </p>
+              </div>
+              <!-- Copyright -->
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+              <!-- Discord -->
+              <a
+                class="btn btn-outline-light btn-floating m-1 text-white"
+                role="button"
+                href="https://discord.gg/ns4GGuVG5Y"
+                target="_blank"
+                ><i class="fab fa-discord"></i
+              ></a>
+
+              <!-- Facebook -->
+              <a
+                class="btn btn-outline-light btn-floating m-1 text-white"
+                role="button"
+                href="https://www.facebook.com/mapod4d"
+                target="_blank"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+
+              <!-- Youtube -->
+              <a
+                class="btn btn-outline-light btn-floating m-1 text-white"
+                role="button"
+                href="https://www.youtube.com/@mapod4d"
+                target="_blank"
+                ><i class="fab fa-youtube"></i
+              ></a>
+
+              <!-- Twitch -->
+              <a
+                class="btn btn-outline-light btn-floating m-1 text-white"
+                role="button"
+                href="https://www.twitch.tv/mapod4d"
+                target="_blank"
+                ><i class="fab fa-twitch"></i
+              ></a>
+
+              <!-- GitHub -->
+              <a
+                class="btn btn-outline-light btn-floating m-1 text-white"
+                role="button"
+                href="https://github.com/mapod4d/"
+                target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+            <!-- Grid column -->
+          </div>
+        </section>
+        <!-- Section: Copyright -->
+      </div>
+      <!-- Grid container -->
+    </footer>
+    <!-- Footer -->
+  </div>
+</template>
+
+<style></style>
