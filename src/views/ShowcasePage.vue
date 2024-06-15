@@ -1,6 +1,6 @@
 <script setup>
-import { ref } from 'vue'
-const cards = ref([
+import { reactive } from 'vue'
+const cards = reactive([
   {
     href: '/screenshots/main_menu.png',
     src: '/screenshots/main_menu_t.png',

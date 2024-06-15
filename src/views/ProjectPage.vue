@@ -1,5 +1,29 @@
 <script setup>
+import { reactive } from 'vue'
 import Hero from '../components/HeroComponent.vue'
+
+const softwares = reactive([
+  { id: 1, src: '/img/logo_godot.png', title: 'GODOT Engine', href: 'https://www.godotengine.org' },
+  { id: 1, src: '/img/blender_icon_32x32.png', title: 'Blender', href: 'https://www.blender.org' },
+  { id: 1, src: '/img/null.png', title: 'MESHROOM', href: 'https://alicevision.org/#meshroom' },
+  { id: 1, src: '/img/null.png', title: 'Hugin', href: 'http://hugin.sourceforge.net/' },
+  { id: 1, src: '/img/null.png', title: 'FreeCAD', href: 'https://www.freecadweb.org/' },
+  { id: 1, src: '/img/null.png', title: 'QGIS', href: 'https://www.qgis.org/' },
+  { id: 1, src: '/img/null.png', title: 'GNU/Linux', href: 'https://kernel.org/' },
+  { id: 1, src: '/img/null.png', title: 'Docker', href: 'https://www.docker.com/' },
+  { id: 1, src: '/img/null.png', title: 'Git', href: 'https://git-scm.com/' },
+  { id: 1, src: '/img/null.png', title: 'Gitea', href: 'https://gitea.io/' },
+  { id: 1, src: '/img/null.png', title: 'Apache', href: 'https://www.apache.org/' },
+  { id: 1, src: '/img/null.png', title: 'Django', href: 'https://www.djangoproject.com/' },
+  { id: 1, src: '/img/null.png', title: 'Django REST', href: 'https://www.django-rest-framework.org/' },
+  { id: 1, src: '/img/null.png', title: 'Vue.js', href: 'https://vuejs.org/' },
+  { id: 1, src: '/img/null.png', title: 'Bootstrap', href: 'https://getbootstrap.com/' },
+  { id: 1, src: '/img/null.png', title: 'Python', href: 'https://www.python.org/' },
+  { id: 1, src: '/img/null.png', title: 'GCC', href: 'https://gcc.gnu.org/' },
+  { id: 1, src: '/img/null.png', title: 'PHP', href: 'https://www.php.net/' },
+  { id: 1, src: '/img/null.png', title: 'Kanboard', href: 'https://kanboard.org/' },
+  { id: 1, src: '/img/null.png', title: '7-zip', href: 'https://7-zip.org/' }
+])
 </script>
 
 <template>
@@ -122,112 +146,11 @@ import Hero from '../components/HeroComponent.vue'
             <h3 class="h3 mb-5">
               <strong>Softwares, programming languages and tools used to build MAPOD4D</strong>
             </h3>
-            <div class="d-flex fl align-items-center gap-5">
-              <img src="/img/logo_godot.png" alt="godot logo" width="50" height="50" />
+            <div v-for="software in softwares" :key="software.id" class="d-flex fl align-items-center gap-5">
+              <img :src="software.src" :alt="software.title + ' logo'" width="50" height="50" />
               <p class="lead">
-                GODOT Engine <a href="https://www.godotengine.org" target="_blank">website</a>
+                {{ software.title }} <a :href="software.href" target="_blank">website</a>
               </p>
-            </div>
-            <div class="d-flex fl align-items-center gap-5">
-              <img src="/img/blender_icon_32x32.png" alt="blender logo" width="50" height="50" />
-              <p class="lead">
-                Blender <a href="https://www.blender.org" target="_blank">website</a>
-              </p>
-            </div>
-            <div class="d-flex fl align-items-center gap-5">
-              <img src="/img/null.png" alt="no logo" width="50" height="50" />
-              <p class="lead">
-                MESHROOM <a href="https://alicevision.org/#meshroom" target="_blank">website</a>
-              </p>
-            </div>
-            <div class="d-flex fl align-items-center gap-5">
-              <img src="/img/null.png" alt="no logo" width="50" height="50" />
-              <p class="lead">
-                Hugin <a href="http://hugin.sourceforge.net/" target="_blank">website</a>
-              </p>
-            </div>
-            <div class="d-flex fl align-items-center gap-5">
-              <img src="/img/null.png" alt="no logo" width="50" height="50" />
-              <p class="lead">
-                FreeCAD <a href="https://www.freecadweb.org/" target="_blank">website</a>
-              </p>
-            </div>
-            <div class="d-flex fl align-items-center gap-5">
-              <img src="/img/null.png" alt="no logo" width="50" height="50" />
-              <p class="lead">QGIS <a href="https://www.qgis.org/" target="_blank">website</a></p>
-            </div>
-            <div class="d-flex fl align-items-center gap-5">
-              <img src="/img/null.png" alt="no logo" width="50" height="50" />
-              <p class="lead">
-                GNU/Linux <a href="https://kernel.org/" target="_blank">website</a>
-              </p>
-            </div>
-            <div class="d-flex fl align-items-center gap-5">
-              <img src="/img/null.png" alt="no logo" width="50" height="50" />
-              <p class="lead">
-                Docker <a href="https://www.docker.com/" target="_blank">website</a>
-              </p>
-            </div>
-            <div class="d-flex fl align-items-center gap-5">
-              <img src="/img/null.png" alt="no logo" width="50" height="50" />
-              <p class="lead">Git <a href="https://git-scm.com/" target="_blank">website</a></p>
-            </div>
-            <div class="d-flex fl align-items-center gap-5">
-              <img src="/img/null.png" alt="no logo" width="50" height="50" />
-              <p class="lead">Gitea <a href="https://gitea.io/" target="_blank">website</a></p>
-            </div>
-            <div class="d-flex fl align-items-center gap-5">
-              <img src="/img/null.png" alt="no logo" width="50" height="50" />
-              <p class="lead">
-                Apache <a href="https://www.apache.org/" target="_blank">website</a>
-              </p>
-            </div>
-            <div class="d-flex fl align-items-center gap-5">
-              <img src="/img/null.png" alt="no logo" width="50" height="50" />
-              <p class="lead">
-                Django <a href="https://www.djangoproject.com/" target="_blank">website</a>
-              </p>
-            </div>
-            <div class="d-flex fl align-items-center gap-5">
-              <img src="/img/null.png" alt="no logo" width="50" height="50" />
-              <p class="lead">
-                Django REST
-                <a href="https://www.django-rest-framework.org/" target="_blank">website</a>
-              </p>
-            </div>
-            <div class="d-flex fl align-items-center gap-5">
-              <img src="/img/null.png" alt="no logo" width="50" height="50" />
-              <p class="lead">Vue.js <a href="https://vuejs.org/" target="_blank">website</a></p>
-            </div>
-            <div class="d-flex fl align-items-center gap-5">
-              <img src="/img/null.png" alt="no logo" width="50" height="50" />
-              <p class="lead">
-                Bootstrap <a href="https://getbootstrap.com/" target="_blank">website</a>
-              </p>
-            </div>
-            <div class="d-flex fl align-items-center gap-5">
-              <img src="/img/null.png" alt="no logo" width="50" height="50" />
-              <p class="lead">
-                Python <a href="https://www.python.org/" target="_blank">website</a>
-              </p>
-            </div>
-            <div class="d-flex fl align-items-center gap-5">
-              <img src="/img/null.png" alt="no logo" width="50" height="50" />
-              <p class="lead">GCC <a href="https://gcc.gnu.org/" target="_blank">website</a></p>
-            </div>
-            <div class="d-flex fl align-items-center gap-5">
-              <img src="/img/null.png" alt="no logo" width="50" height="50" />
-              <p class="lead">PHP <a href="https://www.php.net/" target="_blank">website</a></p>
-            </div>
-            <div class="d-flex fl align-items-center gap-5">
-              <img src="/img/null.png" alt="no logo" width="50" height="50" />
-              <p class="lead">
-                Kanboard <a href="https://kanboard.org/" target="_blank">website</a>
-              </p>
-            </div>
-            <div class="d-flex fl align-items-center gap-5">
-              <img src="/img/null.png" alt="no logo" width="50" height="50" />
-              <p class="lead">7-zip <a href="https://7-zip.org/" target="_blank">website</a></p>
             </div>
           </div>
         </article>

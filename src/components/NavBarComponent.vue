@@ -40,7 +40,9 @@
             <RouterLink class="nav-link text-primary" to="/project">Project</RouterLink>
           </li>
           <li class="nav-item">
-            <RouterLink class="nav-link text-primary" to="/outintheword">Out in the Word</RouterLink>
+            <RouterLink class="nav-link text-primary" to="/outintheword"
+              >Out in the Word</RouterLink
+            >
           </li>
           <li class="nav-item">
             <RouterLink class="nav-link text-primary" to="/showcase">Showcase</RouterLink>

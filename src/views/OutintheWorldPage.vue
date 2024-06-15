@@ -1,6 +1,6 @@
 <script setup>
-import { ref } from 'vue'
-const cards = ref([
+import { reactive } from 'vue'
+const cards = reactive([
   {
     id: 1,
     src: '../../img/out_in_the_world/tagliate/cssg_akylina.png',
