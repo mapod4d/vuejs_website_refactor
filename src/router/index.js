@@ -1,10 +1,10 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Home from '../views/Home.vue'
-import Project from '../views/Project.vue'
-import OutintheWorld from '../views/OutintheWorld.vue'
-import Showcase from '../views/Showcase.vue'
-import Multiverse from '../views/Multiverse.vue'
-import Governance from '../views/Governance.vue'
+import Home from '../views/HomePage.vue'
+import Project from '../views/ProjectPage.vue'
+import OutintheWorld from '../views/OutintheWorldPage.vue'
+import Showcase from '../views/ShowcasePage.vue'
+import Multiverse from '../views/MultiversePage.vue'
+import Governance from '../views/GovernancePage.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
