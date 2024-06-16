@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "firstname": "Robero",
+    "lastname": "Taglioretti",
+    "alias": "totrebon",
+    "role": "Project developer",
+    "groupRole": ["Author", "Project Founders"]
+  },
+  {
+    "id": 2,
+    "firstname": "Alessandra",
+    "lastname": "Mazzucchi",
+    "alias": "al bone",
+    "role": "Anthropologist",
+    "groupRole": ["Project Founders"]
+  },
+  {
+    "id": 3,
+    "firstname": "Serenella",
+    "lastname": "Saccon",
+    "alias": "",
+    "role": "Legal expert",
+    "groupRole": ["Project Founders"]
+  },
+  {
+    "id": 4,
+    "firstname": "Filippo",
+    "lastname": "Di Marco",
+    "alias": "hershellayton95",
+    "role": "Naturalist (dev manager)",
+    "groupRole": ["Developers"]
+  },
+  {
+    "id": 5,
+    "firstname": "Davide",
+    "lastname": "Carraro",
+    "alias": "DavoDovox",
+    "role": "Student (dev junior)",
+    "groupRole": ["Developers"]
+  },
+  {
+    "id": 6,
+    "firstname": "Viktory",
+    "lastname": "Taglioretti",
+    "alias": "Viky",
+    "role": "Student (dev junior)",
+    "groupRole": ["Developers"]
+  },
+  {
+    "id": 7,
+    "firstname": "Antonella",
+    "lastname": "Cristiani",
+    "alias": "",
+    "role": "Archeologist and artist",
+    "groupRole": ["Team"]
+  },
+  {
+    "id": 8,
+    "firstname": "Edoardo",
+    "lastname": "Olmo Puricelli",
+    "alias": "",
+    "role": "Archeologist and artist",
+    "groupRole": ["Team"]
+  },
+  {
+    "id": 9,
+    "firstname": "Ernesto",
+    "lastname": "Ferri",
+    "alias": "",
+    "role": "Drone pilot and technician",
+    "groupRole": ["Team"]
+  },
+  {
+    "id": 10,
+    "firstname": "Giovanni",
+    "lastname": "Taglioretti",
+    "alias": "Giannino",
+    "role": "Volunteer",
+    "groupRole": ["Team"]
+  },
+  {
+    "id": 11,
+    "firstname": "Marco",
+    "lastname": "Schintu",
+    "alias": "",
+    "role": "X-ray technician and veterinarian",
+    "groupRole": ["Team"]
+  },
+  {
+    "id": 12,
+    "firstname": "Paolo",
+    "lastname": "Alemani",
+    "alias": "",
+    "role": "Technician",
+    "groupRole": ["Team"]
+  },
+  { "id": 13, "firstname": "Sofia", "lastname": "Mondo", "alias": "", "role": "Student", "groupRole": ["Team"]},
+  {
+    "id":14,
+    "firstname": "Valentina",
+    "lastname": "Galli",
+    "alias": "",
+    "role": "Archeologist",
+    "groupRole": ["Team"]
+  }
+]

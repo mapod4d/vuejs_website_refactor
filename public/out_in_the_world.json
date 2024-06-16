@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "src": "../../img/out_in_the_world/tagliate/cssg_akylina.png",
+    "title": "Progetto educazione civica presso il Liceo Galileo Ferraris di Varese",
+    "date": "21th May 2024",
+    "description": "Presentazione CSSG nel progetto educazione civica della studentessa Akylina Taglioretti",
+    "hrefs": ["https://www.youtube.com/watch?v=RY1A0WJvNgE&t=7s"]
+  },
+  {
+    "id": 2,
+    "src": "../../img/out_in_the_world/tagliate/20240510_lezione_insubria.png",
+    "title": "Lezione elettiva presso Università degli Studi dell'Insubri",
+    "date": "10th May 2024",
+    "description": "Corso di Antropologia\n MAPOD4D: scheletri e archeologia tra tecnologia e divulgazione\n Con Alessandra Mazzucchi e Roberto Taglioretti di Associazione LabDig 3A Academy",
+    "hrefs": []
+  },
+  {
+    "id": 3,
+    "src": "../../img/out_in_the_world/tagliate/20231026_convegno_uni_siena.png",
+    "title": "Convegno presso Università degli Studi di Siena",
+    "date": "26th Oct 2023",
+    "description": "Un (multi)metaverso di scavo archeologico: MAPOD4D a Castelseprio.\n Archeologia e nuove tecnologie dalla teoria ai protocolli.\n Con Marco Moderato, Roberto Taglioretti, Alessandra Mazzucchi Filippo Di Marco, Antonio Merola, Vasco La Salvia",
+    "hrefs": []
+  },
+  {
+    "id": 4,
+    "src": "../../img/out_in_the_world/tagliate/universita_studi_milano.png",
+    "title": "Lezione presso Università degli Studi di Milano",
+    "date": "22th March 2023",
+    "description": "Anthropologia & MAPOD4D: Lezione per il corso del Professor Umberto Tecchati \"Ecologia e Preistorica\" presso la l'Università degli Studi di Milano",
+    "hrefs": []
+  },
+  {
+    "id": 5,
+    "src": "../../img/out_in_the_world/tagliate/camera_di_commercio.png",
+    "title": "Presentazione in Camera di Commercio",
+    "date": "10th March 2023",
+    "description": "Con i ragazzi del PCTO ormai pronti a presentare il Multiverso di Metaversi MAPOD4D in camera di commercio",
+    "hrefs": []
+  },
+  {
+    "id": 6,
+    "src": "../../img/out_in_the_world/accademiadeipugni.png",
+    "title": "Interview - Accademia dei Pugni",
+    "date": "8th December 2022",
+    "description": "ARCHEOLOGIA e ANTROPOLOGIA nel METAVERSO: il FUTURO? Si può scavare nel metaverso? E' davvero il futuro anche per l'archeologia? E come possiamo costruirlo? Di questo e molto altro parliamo con gli amici di @mapod4d. Intervista a cura del Ph.D Marco Moderato",
+    "hrefs": ["https://www.youtube.com/watch?v=GCPTSP8aITk"]
+  },
+  {
+    "id": 7,
+    "src": "../../img/out_in_the_world/lezioni_mapod.png",
+    "title": "Lezioni online",
+    "date": "November 2022",
+    "description": "Avvio del progetto lezioni online sul canale di MAPOD4D.",
+    "hrefs": ["https://www.youtube.com/@mapod4d"]
+  },
+  {
+    "id": 8,
+    "src": "../../img/out_in_the_world/planets.jpg",
+    "title": "PROJECT WORK - L'INVISIBILE IN MUSEO 4D - Un metaverso per la divulgazione e la ricerca istologica",
+    "date": "November 2022",
+    "description": "Argonavis Srl e Osteoarc APS utilizzano lo strumento MAPOD4D nel progetto finanziato dalla Camera di Commercio di Varese PCTO con i ragazzi del Liceo Galileo Ferraris di Varese e del Liceo Leonardo Da Vinci di Gallarate (Liceo dei Tigli).",
+    "hrefs": ["https://www.va.camcom.it/archivio39_contributi_0_257.html", "https://www.argonavis.it/", "https://www.osteoarc.it/"]
+  },
+  {
+    "id": 9,
+    "src": "../../img/out_in_the_world/planets.jpg",
+    "title":"PROJECT WORK - ANATOMIA DA MODELLARE - Creazione di un atlante osteologico interattivo multimediale",
+    "date": "November 2022",
+    "description": "ArcheOs Tec utilizza lo strumento MAPOD4D nel progetto finanziato dalla Camera di Commercio di Varese PCTO con i ragazzi del Liceo GB Grassi di Saronno e dell'istituto Geymonat di Tradate.",
+    "hrefs": ["https://www.va.camcom.it/archivio39_contributi_0_257.htm", "https://www.archeostec.it/"]
+  },
+  {
+    "id": 10,
+    "src": "../../img/out_in_the_world/repubblica.png",
+    "title": "La Repubblica",
+    "date": "30th October 2022",
+    "description": "Borsa Mediterranea del Turismo Archeologico: la cerimonia per i premi \"Sebastiano Tusa\".",
+    "hrefs": ["https://www.repubblica.it/cultura/2022/09/29/news/borsa_mediterranea_del_turismo_archeologico_sabato_29_ottobre_la_cerimonia_per_i_premi_sebastiano_tusa-366896446/"]
+  },
+  {
+    "id": 11,
+    "src": "../../img/out_in_the_world/sole24.png",
+    "title": "Sole 24 Ore Tecnologia",
+    "date": "27th October 2022",
+    "description": "Cantieri archeologici aperti per costruire e abitare i metaversi a cura di Alessia Maccaferri.",
+    "hrefs": ["https://www.ilsole24ore.com/art/cantieri-archeologici-aperti-costruire-e-abitare-metaversi-AE2jdd9B"]
+  },
+  {
+    "id": 12,
+    "src": "../../img/out_in_the_world/medantinterview.png",
+    "title": "Interview - mediterraneo_antico",
+    "date": "27th October 2022",
+    "description": "Metaverso applicato alla rappresentazione e all'immagazinamento di dati scientifici a cura di Marcello Garbagnati",
+    "hrefs": ["https://www.instagram.com/reel/CkNu1MwjvGu/?igshid=MDJmNzVkMjY="]
+  },
+  {
+    "id": 13,
+    "src": "../../img/out_in_the_world/pestum.png",
+    "title": "Archeovirtual - XXIV Borsa mediterranea del turismo archeologico",
+    "date": "October 2022",
+    "description": "MAPOD4D is both a platform and a framework for the development of the \"multiverse of metaverses\" in anthropology, history, art and culture. It is the element connecting various projects already existant, belonging to five categories: image digital elaboration, data repository, digital lab, new sensors for data acquisition, new technological methodologies.",
+    "hrefs": ["https://www.youtube.com/playlist?list=PLslh5RaO317OdpHGuHDgrRJpCTEdArejy"]
+  },
+  {
+    "id": 14,
+    "src": "../../img/out_in_the_world/archeofoss.png",
+    "title": "ARCHEOFOSS 2022",
+    "date": "September 2022",
+    "description": "MAPOD4D: A Multi/Metaverse for Archaeology, Anthropology and Cultural Heritage",
+    "hrefs": ["https://www.mapod4d.it/abstract/2022/moderatoetal.html"]
+  },
+  {
+    "id": 15,
+    "src": "../../img/out_in_the_world/cscp2022.jpg",
+    "title": "CSCP 2022",
+    "date": "June 2022",
+    "description": "In collaborazione con il Professor Vasco La Salvia e il Dottor Marco Moderato dell'Università Statale si chieti il progetto di digitalizzazione mapod4d dello scavo di Casa Piccoli a Castel Seprio (VA).",
+    "hrefs": []
+  },
+  {
+    "id": 16,
+    "src": "../../img/out_in_the_world/cscf2022.jpg",
+    "title": "CSCF 2022",
+    "date": "June 2022",
+    "description": "In collaborazione con la Professoressa Caterina Giostra dell'Università Cattolica del Sacro Cuore di Milano il progetto di digitalizzazione mapod4d dello scavo della Casa-Forte di Castel Seprio (VA).",
+    "hrefs": []
+  },
+  {
+    "id": 17,
+    "src": "../../img/out_in_the_world/Sibrium_35.jpg",
+    "title": "Article on Sibrium N.35, Centro di Studi Preistorici e Archeologici di Varese, Varese",
+    "date": "20th November 2021",
+    "description": "MAPOD4D: primo esempio di musealizzazione digitale di sepolture utilizzando un multiverso di metaversi.",
+    "hrefs": ["https://www.youtube.com/watch?v=tgG_4yBruUI"]
+  }
+]
