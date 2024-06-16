@@ -1,37 +1,8 @@
 <script setup>
+import fetcherJson from '@/assets/js/jsonFetcher'
 import { reactive } from 'vue'
-const cards = reactive([
-  {
-    href: '/screenshots/main_menu.png',
-    src: '/screenshots/main_menu_t.png',
-    alt: 'MAPOD4D main menu',
-    describe: 'MAPOD4D version 1 - metaverse menu'
-  },
-  {
-    href: '/screenshots/ancient_jaw.png',
-    src: '/screenshots/ancient_jaw_t.png',
-    alt: 'ancient jaw',
-    describe: 'MAPOD4D version 1 - ancient jaw'
-  },
-  {
-    href: '/screenshots/gam_museum.png',
-    src: '/screenshots/gam_museum_t.png',
-    alt: 'gam_museum',
-    describe: 'MAPOD4D version 1 - GAM museum'
-  },
-  {
-    href: '/screenshots/test_environment.jpg',
-    src: '/screenshots/test_environment_t.jpg',
-    alt: 'test environment',
-    describe: 'MAPOD4D version 1 - test environment'
-  },
-  {
-    href: '/screenshots/metaverse_test.jpg',
-    src: '/screenshots/metaverse_test_t.jpg',
-    alt: 'metaverse test',
-    describe: 'MAPOD4D version 1 - metaverse test'
-  }
-])
+const cards = reactive([])
+fetcherJson('/showcase.json', cards)
 </script>
 
 <template>
