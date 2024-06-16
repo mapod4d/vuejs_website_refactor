@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "href": "/screenshots/main_menu.png",
+    "src": "/screenshots/main_menu_t.png",
+    "alt": "MAPOD4D main menu",
+    "describe": "MAPOD4D version 1 - metaverse menu"
+  },
+  {
+    "id": 2,
+    "href": "/screenshots/ancient_jaw.png",
+    "src": "/screenshots/ancient_jaw_t.png",
+    "alt": "ancient jaw",
+    "describe": "MAPOD4D version 1 - ancient jaw"
+  },
+  {
+    "id": 3,
+    "href": "/screenshots/gam_museum.png",
+    "src": "/screenshots/gam_museum_t.png",
+    "alt": "gam_museum",
+    "describe": "MAPOD4D version 1 - GAM museum"
+  },
+  {
+    "id": 4,
+    "href": "/screenshots/test_environment.jpg",
+    "src": "/screenshots/test_environment_t.jpg",
+    "alt": "test environment",
+    "describe": "MAPOD4D version 1 - test environment"
+  },
+  {
+    "id": 5,
+    "href": "/screenshots/metaverse_test.jpg",
+    "src": "/screenshots/metaverse_test_t.jpg",
+    "alt": "metaverse test",
+    "describe": "MAPOD4D version 1 - metaverse test"
+  }
+]
