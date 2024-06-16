@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light mt-0">
     <div class="container">
       <div class="d-flex align-items-center">
         <a class="navbar-brand" href="/">
