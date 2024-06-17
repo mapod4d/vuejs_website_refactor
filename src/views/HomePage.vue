@@ -8,7 +8,7 @@ import Hero from '../components/HeroComponent.vue'
     <main class="conteiner-fluid d-flex flex-column justify-content-center align-items-center mb-5">
       <section class="py-3 w-100">
         <div class="d-flex justify-content-center">
-          <a class="btn btn-outline-primary btn-lg" href="/multiverse.html">Metaverses Download</a>
+          <a class="btn btn-outline-primary btn-lg" href="/multiverse">Metaverses Download</a>
         </div>
         <div class="d-flex flex-wrap justify-content-center">
           <!-- Whatsapp -->

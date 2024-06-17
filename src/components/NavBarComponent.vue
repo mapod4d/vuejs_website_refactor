@@ -1,7 +1,9 @@
-<script setup></script>
+<script setup>
+
+</script>
 
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light mt-0">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light mt-0 mx-0">
     <div class="container">
       <div class="d-flex align-items-center">
         <a class="navbar-brand" href="/">
@@ -34,24 +36,22 @@
       <div class="collapse navbar-collapse d-lg-flex justify-content-lg-end" id="navbarNav">
         <ul class="navbar-nav gap-lg-3" style="font-size: 1.2rem; font-weight: bold">
           <li class="nav-item">
-            <RouterLink class="nav-link active text-primary" to="/">Home</RouterLink>
+            <RouterLink class="nav-link" to="/">Home</RouterLink>
           </li>
           <li class="nav-item">
-            <RouterLink class="nav-link text-primary" to="/project">Project</RouterLink>
+            <RouterLink class="nav-link" to="/project">Project</RouterLink>
           </li>
           <li class="nav-item">
-            <RouterLink class="nav-link text-primary" to="/outintheword"
-              >Out in the Word</RouterLink
-            >
+            <RouterLink class="nav-link text" to="/outintheword">Out in the Word</RouterLink>
           </li>
           <li class="nav-item">
-            <RouterLink class="nav-link text-primary" to="/showcase">Showcase</RouterLink>
+            <RouterLink class="nav-link" to="/showcase">Showcase</RouterLink>
           </li>
           <li class="nav-item">
-            <RouterLink class="nav-link text-primary" to="/multiverse">Multiverse</RouterLink>
+            <RouterLink class="nav-link" to="/multiverse">Multiverse</RouterLink>
           </li>
           <li class="nav-item">
-            <RouterLink class="nav-link text-primary" to="/governance">Governance</RouterLink>
+            <RouterLink class="nav-link" to="/governance">Governance</RouterLink>
           </li>
         </ul>
       </div>

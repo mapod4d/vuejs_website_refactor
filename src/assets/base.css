@@ -35,17 +35,12 @@ nav a:first-of-type {
   border: 0;
 }
 
-a.nav-link.active {
-  background-color: #d3d3d3;
-  border-radius: 20px;
-}
-
 nav a.router-link-exact-active {
   color: var(--color-text);
-}
-
-nav a.router-link-exact-active:hover {
-  background-color: transparent;
+  background-color: #d3d3d3;
+  border-radius: 20px;
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
 }
 
 .carousel-item img {

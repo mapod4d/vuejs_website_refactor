@@ -1,11 +1,10 @@
 <script setup>
-import { reactive } from 'vue';
+import { reactive } from 'vue'
 import Hero from '../components/HeroComponent.vue'
-import fetcherJson from '@/assets/js/jsonFetcher';
+import fetcherJson from '@/assets/js/jsonFetcher'
 
-const sections = reactive([]);
+const sections = reactive([])
 fetcherJson('governance.json', sections)
-
 </script>
 
 <template>
@@ -19,7 +18,9 @@ fetcherJson('governance.json', sections)
         <article class="container mt-5 mb-3" style="max-width: 1200px">
           <div class="container">
             <div>
-              <h3 class="h3 mb-3"><strong>{{ section.title }}</strong></h3>
+              <h3 class="h3 mb-3">
+                <strong>{{ section.title }}</strong>
+              </h3>
               <p class="lead">
                 {{ section.paragraph }}
               </p>
