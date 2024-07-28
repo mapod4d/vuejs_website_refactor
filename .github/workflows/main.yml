@@ -23,6 +23,7 @@ jobs:
         run: npm install
 
   build:
+     needs: [download-dependecies]
      runs-on: ubuntu-latest
      steps:
       - name: Checkout code
