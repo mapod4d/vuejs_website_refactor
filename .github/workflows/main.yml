@@ -25,6 +25,9 @@ jobs:
   build:
      needs: [download-dependecies]
      runs-on: ubuntu-latest
+     outputs:
+      artifactId: ${{ steps.artifact-upload-step.outputs.artifact-id }}
+      artifactURL: ${{ steps.artifact-upload-step.outputs.artifact-url }}
      steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -42,8 +45,19 @@ jobs:
         run: npm install
       - name: Build
         run: npm run build
-      - uses: actions/upload-artifact@v4
+      - name: Upload artifact
+        id: artifact-upload-step
+        uses: actions/upload-artifact@v4
         with:
            name: build-artifact
            path: ./dist
-             
+
+  trigger:
+     needs: [build]
+     runs-on: ubuntu-latest
+     env:
+      ARTIFACT_ID: ${{needs.build.outputs.artifactId}}
+      ARTIFACT_URL: ${{needs.build.outputs.artifactURL}}
+     steps:
+      - name: Check env
+        run: echo "Artifact ID from previous job is $ARTIFACT_ID\nArtifact URL from previous job is $ARTIFACT_URL"
