@@ -60,4 +60,8 @@ jobs:
       ARTIFACT_URL: ${{needs.build.outputs.artifactURL}}
      steps:
       - name: Check env
-        run: echo "Artifact URL from previous job is $ARTIFACT_URL"
+        run: |
+          echo "Artifact URL from previous job is $ARTIFACT_URL"
+          echo "Test ${{secret.API_URL}}"
+          echo "Test ${{secret.API_TOKEN}}"
+          
