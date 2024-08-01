@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-      - master
+      - release
 
 jobs:
   download-dependecies:
@@ -64,4 +64,12 @@ jobs:
           echo "Artifact URL from previous job is $ARTIFACT_URL"
           echo "Test ${{secrets.API_URL}}"
           echo "Test ${{secrets.API_TOKEN}}"
+          env
+      - name: curl
+        run: |
+          echo $(curl -X \
+          -F ARTIFACT_URL=$ARTIFACT_URL \
+          -F API_TOKEN=${{secrets.API_TOKEN}}" \
+          ${{secrets.API_URL}})
+        
           
