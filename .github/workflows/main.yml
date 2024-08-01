@@ -66,10 +66,6 @@ jobs:
           echo "Test ${{secrets.API_TOKEN}}"
           env
       - name: curl
-        run: |
-          echo $(curl -X \
-          -F ARTIFACT_URL=$ARTIFACT_URL \
-          -F API_TOKEN=${{secrets.API_TOKEN}}" \
-          ${{secrets.API_URL}})
+        run: echo 'curl -X -F ARTIFACT_URL=$ARTIFACT_URL -F API_TOKEN=${{secrets.API_TOKEN}} ${{secrets.API_URL}}'
         
           
