@@ -102,7 +102,7 @@
           <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
             <!-- Discord -->
             <a
-              class="btn btn-outline-light btn-floating m-1 text-white"
+              class="btn btn-outline-light btn-floating m-1"
               role="button"
               href="https://discord.gg/ns4GGuVG5Y"
               target="_blank"
@@ -110,7 +110,7 @@
             ></a>
             <!-- Facebook -->
             <a
-              class="btn btn-outline-light btn-floating m-1 text-white"
+              class="btn btn-outline-light btn-floating m-1"
               role="button"
               href="https://www.facebook.com/mapod4d"
               target="_blank"
@@ -118,7 +118,7 @@
             ></a>
             <!-- Youtube -->
             <a
-              class="btn btn-outline-light btn-floating m-1 text-white"
+              class="btn btn-outline-light btn-floating m-1"
               role="button"
               href="https://www.youtube.com/@mapod4d"
               target="_blank"
@@ -126,7 +126,7 @@
             ></a>
             <!-- Twitch -->
             <a
-              class="btn btn-outline-light btn-floating m-1 text-white"
+              class="btn btn-outline-light btn-floating m-1"
               role="button"
               href="https://www.twitch.tv/mapod4d"
               target="_blank"
@@ -134,7 +134,7 @@
             ></a>
             <!-- GitHub -->
             <a
-              class="btn btn-outline-light btn-floating m-1 text-white"
+              class="btn btn-outline-light btn-floating m-1"
               role="button"
               href="https://github.com/mapod4d/"
               target="_blank"

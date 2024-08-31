@@ -13,7 +13,7 @@ import Hero from '../components/HeroComponent.vue'
         <div class="d-flex flex-wrap justify-content-center">
           <!-- Whatsapp -->
           <a
-            class="btn btn-outline-dark btn-floating m-2 fs-5 text-white"
+            class="btn btn-outline-dark btn-floating m-2 fs-5"
             role="button"
             href="https://chat.whatsapp.com/FdmQ0yq7Sk2HiPmZCE4JUP"
             target="_blank"
@@ -21,7 +21,7 @@ import Hero from '../components/HeroComponent.vue'
           ></a>
           <!-- Discord -->
           <a
-            class="btn btn-outline-dark btn-floating m-2 fs-5 text-white"
+            class="btn btn-outline-dark btn-floating m-2 fs-5"
             role="button"
             href="https://discord.gg/ns4GGuVG5Y"
             target="_blank"
@@ -29,7 +29,7 @@ import Hero from '../components/HeroComponent.vue'
           ></a>
           <!-- Facebook -->
           <a
-            class="btn btn-outline-dark btn-floating m-2 fs-5 text-white"
+            class="btn btn-outline-dark btn-floating m-2 fs-5"
             role="button"
             href="https://www.facebook.com/mapod4d"
             target="_blank"
@@ -37,7 +37,7 @@ import Hero from '../components/HeroComponent.vue'
           ></a>
           <!-- Youtube -->
           <a
-            class="btn btn-outline-dark btn-floating m-2 fs-5 text-white"
+            class="btn btn-outline-dark btn-floating m-2 fs-5"
             role="button"
             href="https://www.youtube.com/@mapod4d"
             target="_blank"
@@ -45,7 +45,7 @@ import Hero from '../components/HeroComponent.vue'
           ></a>
           <!-- Twitch -->
           <a
-            class="btn btn-outline-dark btn-floating m-2 fs-5 text-white"
+            class="btn btn-outline-dark btn-floating m-2 fs-5"
             role="button"
             href="https://www.twitch.tv/mapod4d"
             target="_blank"
@@ -53,7 +53,7 @@ import Hero from '../components/HeroComponent.vue'
           ></a>
           <!-- GitHub -->
           <a
-            class="btn btn-outline-dark btn-floating m-2 fs-5 text-white"
+            class="btn btn-outline-dark btn-floating m-2 fs-5"
             role="button"
             href="https://github.com/mapod4d/"
             target="_blank"
