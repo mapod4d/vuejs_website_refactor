@@ -67,7 +67,7 @@ fetcherJson('/persons.json', persons)
         <article class="container my-3" style="max-width: 1200px">
           <div class="container">
             <h3 class="h3 mb-5">
-              <strong>Softwares, programming languages and tools used to build MAPOD4D</strong>
+              <strong>Softwares, programming languages and tools used to build MAPOD4D™</strong>
             </h3>
             <div
               v-for="software in softwares"

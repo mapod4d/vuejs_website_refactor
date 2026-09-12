@@ -19,7 +19,7 @@
           class="navbar-brand"
           style="font-weight: 700; color: #4f41d1; padding-bottom: 10px"
           href="/"
-          >MAPOD4D</a
+          >MAPOD4D™</a
         >
       </div>
       <button

@@ -29,7 +29,7 @@
         <img src="/img/hero_img1_s.png" class="d-block w-100" alt="Main Menu" />
         <div class="carousel-caption d-none d-md-block">
           <h5 class="h2">Main Menù</h5>
-          <p>MAPOD4D metaverse main menù</p>
+          <p>MAPOD4D™ metaverse main menù</p>
         </div>
       </div>
       <div class="carousel-item">

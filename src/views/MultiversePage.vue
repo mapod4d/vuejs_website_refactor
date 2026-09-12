@@ -11,7 +11,7 @@
             <div class="row d-flex flex-column justify-content-center align-items-center">
               <h3 class="h3 mb-3 text-center"><strong>Guidelines.</strong></h3>
               <p class="lead text-center">
-                Guidelines for those who want to build a "Metaverse MAPOD4D".
+                Guidelines for those who want to build a "Metaverse MAPOD4D™".
               </p>
               <!-- buttons -->
               <div class="mt-2 d-flex flex-wrap gap-3 justify-content-center">
@@ -33,7 +33,7 @@
         <article class="container text-dark my-5" style="max-width: 1200px">
           <div class="container">
             <div class="row mb-3">
-              <p class="h3 text-start"><strong>MAPOD4D core version 1.</strong></p>
+              <p class="h3 text-start"><strong>MAPOD4D™ core version 1.</strong></p>
               <p class="lead">
                 Version 1 is only available for desktop with Operation System GNU/Linux and
                 Microsoft Windows.
@@ -96,7 +96,7 @@
                   </li>
                 </ul>
               </div>
-              <p>*The License is valid for MAPOD4D core 1 and core 2</p>
+              <p>*The License is valid for MAPOD4D™ core 1 and core 2</p>
             </div>
             <div class="row mb-3">
               <p class="h3 mb-2 text-start"><strong>Multiverse</strong></p>
@@ -267,7 +267,7 @@
                     <th>
                       <img
                         src="/img/null.png"
-                        alt="Logo MAPOD4D Monastero di Astino"
+                        alt="Logo MAPOD4D™ Monastero di Astino"
                         style="width: 20px; height: 20px"
                       />&nbsp;<a
                         href="https://filedn.eu/lsD1YJOdPbyhboA6GjGwlep/mapod4d/c1/bgastn/win64_c1_bgastn_0_0_0_6_a_7z.exe"
@@ -287,7 +287,7 @@
                     <th>
                       <img
                         src="/img/null.png"
-                        alt="Logo MAPOD4D Castelseprio"
+                        alt="Logo MAPOD4D™ Castelseprio"
                         style="width: 20px; height: 20px"
                       />&nbsp;<a
                         href="https://filedn.eu/lsD1YJOdPbyhboA6GjGwlep/mapod4d/c1/cscp2022/win64_c1_cscp2022_1_0_0_7_rc3_7z.exe"
@@ -307,7 +307,7 @@
                     <th>
                       <img
                         src="/img/loghi_mapod/logo_gam.png"
-                        alt="Logo MAPOD4D GAM"
+                        alt="Logo MAPOD4D™ GAM"
                         style="width: 20px; height: 20px"
                       />&nbsp;<a
                         href="https://filedn.eu/lsD1YJOdPbyhboA6GjGwlep/mapod4d/c1/gam/mswin64_gam_0_0_0_6_b_7z.exe"
@@ -327,7 +327,7 @@
                     <th>
                       <img
                         src="/img/loghi_mapod/logo_treviglio_av113iv01t23.png"
-                        alt="Logo MAPOD4D Treviglio"
+                        alt="Logo MAPOD4D™ Treviglio"
                         style="width: 20px; height: 20px"
                       />&nbsp;<a
                         href="https://filedn.eu/lsD1YJOdPbyhboA6GjGwlep/mapod4d/c1/treviglio_av13iv01t23/win64_mapod_treviglioav13iv01-1-0-0-1-b.zip"
@@ -347,7 +347,7 @@
                     <th>
                       <img
                         src="/img/loghi_mapod/logo_treviglio_av113iv01t23.png"
-                        alt="Logo MAPOD4D Treviglio"
+                        alt="Logo MAPOD4D™ Treviglio"
                         style="width: 20px; height: 20px"
                       />&nbsp;<a
                         href="https://filedn.eu/lsD1YJOdPbyhboA6GjGwlep/mapod4d/c1/treviglio_av13iv01t23/mac_mapod_treviglioav13iv01-1-0-0-1-b.zip"
@@ -367,7 +367,7 @@
                     <th>
                       <img
                         src="/img/loghi_mapod/logo_treviglio_av113iv01t23.png"
-                        alt="Logo MAPOD4D Treviglio"
+                        alt="Logo MAPOD4D™ Treviglio"
                         style="width: 20px; height: 20px"
                       />&nbsp;<a
                         href="https://filedn.eu/lsD1YJOdPbyhboA6GjGwlep/mapod4d/c1/treviglio_av13iv01t23/linux_mapod_treviglioav13iv01-1-0-0-1-b.x86_64.bz2"
@@ -393,7 +393,7 @@
             <div class="row mb-3"></div>
 
             <div class="row mt-5">
-              <p class="h3 text-start"><strong>MAPOD4D core version 2</strong></p>
+              <p class="h3 text-start"><strong>MAPOD4D™ core version 2</strong></p>
               <p class="lead">Work in progress. Stay tuned!</p>
             </div>
           </div>
